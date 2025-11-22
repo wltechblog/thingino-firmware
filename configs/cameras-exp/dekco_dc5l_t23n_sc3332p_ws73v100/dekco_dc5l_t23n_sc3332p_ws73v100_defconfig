@@ -1,5 +1,6 @@
-# NAME: DEKCO DC5L (t23N, SC3332P, WS73V100)
-# MODULE: t23n_sc3332p_ws73v100
+# NAME: DEKCO DC5L (T23N, SC3332P, WS73V100)
+# FRAG: soc-xburst1 toolchain-xburst1 ccache brand rootfs kernel system target uboot ssl
+BR2_SOC_INGENIC_T23N=y
 BR2_AVPU_MPLL=y
 BR2_ISP_CH0_PRE_DEQUEUE_TIME=y
 BR2_ISP_CH0_PRE_DEQUEUE_TIME_VALUE=24
