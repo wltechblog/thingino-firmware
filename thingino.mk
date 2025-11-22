@@ -730,6 +730,8 @@ else ifeq ($(BR2_SENSOR_SC301IOT),y)
 	SENSOR_MODEL := sc301IoT
 else ifeq ($(BR2_SENSOR_SC3235),y)
 	SENSOR_MODEL := sc3235
+else ifeq ($(BR2_SENSOR_SC3332P),y)
+	SENSOR_MODEL := sc3332p
 else ifeq ($(BR2_SENSOR_SC3335),y)
 	SENSOR_MODEL := sc3335
 else ifeq ($(BR2_SENSOR_SC3336),y)
